@@ -44,19 +44,19 @@ const App = () => {
                 </div>
                 <div className="flex flex-col w-full justify-start hover:scale-105 transition-all ease-in-out duration-500 bg-[#FEEAFA] p-2 space-y-1 border-b items-center">
                   <p className="flex w-full justify-start"> Research </p>
-                  <ProgressBar className="flex w-full justify-center" progress={20}/>
+                  <ProgressBar className="flex w-full justify-center" progress={95}/>
                 </div>
                 <div className="flex flex-col w-full justify-start hover:scale-105 transition-all ease-in-out duration-500 bg-[#FEEAFA] p-2 space-y-1 border-b items-center">
                   <p className="flex w-full justify-start"> Decision Making </p>
-                  <ProgressBar className="flex w-full justify-center" progress={20}/>
+                  <ProgressBar className="flex w-full justify-center" progress={94}/>
                 </div>
                 <div className="flex flex-col w-full justify-start hover:scale-105 transition-all ease-in-out duration-500 bg-[#FEEAFA] p-2 space-y-1 border-b items-center">
                   <p className="flex w-full justify-start"> Technical Skills </p>
-                  <ProgressBar className="flex w-full justify-center" progress={20}/>
+                  <ProgressBar className="flex w-full justify-center" progress={89}/>
                 </div>
                 <div className="flex flex-col w-full justify-start hover:scale-105 transition-all ease-in-out duration-500 bg-[#FEEAFA] p-2 space-y-1 border-b items-center">
                   <p className="flex w-full justify-start"> Management </p>
-                  <ProgressBar className="flex w-full justify-center" progress={20}/>
+                  <ProgressBar className="flex w-full justify-center" progress={79}/>
                 </div>
               </div>
               <div className="flex w-full h-8 bg-[#EFD3D7]">
@@ -73,7 +73,7 @@ const App = () => {
               <div className="flex w-full justify-start p-2 hover:scale-105 transition-all ease-in-out duration-500 bg-[#FEEAFA]  space-x-3 border-b items-center">
                 <BsEnvelope size={24} /> <a className="hover:text-blue-500" href="mailto:lucas.briot@protonmail.com" target="_blank"> Email me</a>
               </div>
-              <div className="flex w-full justify-start p-2 hover:scale-105 transition-all ease-in-out duration-500 bg-[#FEEAFA]  space-x-3 border-b items-center">
+              <div className="flex w-full justify-start p-2 hover:scale-105  transition-all ease-in-out duration-500 bg-[#FEEAFA]  space-x-3 border-b items-center">
                 <SiGithub size={24} /> <a className="hover:text-blue-500" href="https://github.com/Funkix6" target="_blank"> My GitHub </a>
               </div>
             </div>
